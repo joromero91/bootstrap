@@ -1,0 +1,56 @@
+#header img{
+    width: 80px;
+}
+
+#main .carousel-inner img{
+    max-height: 70vh;  /*usa el 70% del espacio del viewport*/
+    object-fit: cover; /*mantiene la proporcion de la imagen para evitar que se estire*/
+    filter: grayscale(60%);
+}
+
+#footer {
+    background: -webkit-linear-gradient(0deg, #1c3643 0, #273b47 25%, #1e5372);
+
+}
+
+#footer a{
+    color: white;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute; /* el overlay se expande por todo el carrusel*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5); /* background negro con efecto de transparencia al 50% */
+    color: white; 
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+.btn-platzi {
+    background-color: #97c93e;
+    color: white;
+}
+
+.btn-platzi:hover {
+    background-color: #82ad36;
+}
+
+#container-fluid img{
+    max-width: 100%;   /* imagen del contenedor fluido ocupando hasta el 100% del espacio disponible en la columna */
+    
+}
+
+#container-fluid {
+    background-color: #343a40;
+    color: white;
+}
